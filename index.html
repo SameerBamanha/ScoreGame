@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="index.css">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreBoard</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "Home">
+            <div class="homeText">HOME</div>
+            <div class = "HomeCounter">
+                <div id = "homeBoard">
+                    0
+                </div>
+            <div class = "Buttons">
+                <button class="increaseCounter" id = "Hplusone" onClick = "HincreaseBy1()">+1</button>
+                <button class="increaseCounter" id = "Hplustwo" onClick = "HincreaseBy2()">+2</button>
+                <button class="increaseCounter" id = "Hplusthree" onClick = "HincreaseBy3()">+3</button>
+            </div>
+        </div>
+        </div>
+        <div class = "Opponent">
+            <div class="opponentText">GUEST</div>
+            <div class = "OpponentCounter">
+                <div id = "OpponentBoard">
+                    0
+                </div>
+                <div class = "Buttons">
+                    <button class="increaseCounter" id = "Oplusone" onClick = "OincreaseBy1()">+1</button>
+                    <button class="increaseCounter" id = "Oplustwo" onClick = "OincreaseBy2()">+2</button>
+                    <button class="increaseCounter" id = "Oplusthree" onClick = "OincreaseBy3()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "BottomBox">
+        <button class="reset" id = "resetButton" onClick = "reset()">Reset</button>
+    </div>
+    <div class = "WinnerBox" id = "ShowWinner">
+        Score is null
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>

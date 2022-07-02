@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    background-color: #1B244A
+}
+.container{
+    display: flex;
+    color: #EEEEEE;
+    justify-content: space-around;
+    align-items: center;
+}
+.Home, .Opponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeText, .opponentText{
+    margin: 12px;
+    margin-top: 50px;
+    font-family: 'Verdana';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+#homeBoard, #OpponentBoard{
+    margin-top: 20px;
+    background-color: #080001;
+    width: 155px;
+    height: 155px;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.increaseCounter{
+    background: none;
+    border: 1px solid #9AABD8;
+    border-radius: 10%;
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+    
+    color: #9AABD8;
+}
+.reset{
+    text-align: center;
+    color: #9AABD8;
+    width: 100px;
+    height: 50px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #9AABD8;
+    background: none;
+}
+.BottomBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.WinnerBox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+}
+#Hplustwo, #Oplustwo, #Oplusthree, #Hplusthree{
+    margin-left: 8px;
+}
+#Hplustwo, #Oplustwo, #Oplusthree, #Hplusthree, #HplusOne, #OplusOne{
+    margin-top: 20px;
+}
